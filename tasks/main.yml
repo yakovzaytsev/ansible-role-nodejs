@@ -1,7 +1,7 @@
 ---
 # tasks file for nodejs
 - shell: |
-    curl -sL https://deb.nodesource.com/setup_6.x | bash -
+    curl -sL https://deb.nodesource.com/setup_8.x | bash -
   
 - apt:
     name: nodejs
