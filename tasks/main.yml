@@ -1,5 +1,9 @@
 ---
 # tasks file for nodejs
+- apt:
+    name: curl
+    state: present
+
 - shell: |
     curl -sL https://deb.nodesource.com/setup_8.x | bash -
   
